@@ -1,0 +1,13 @@
+
+#navbar{
+    float: left;
+}
+
+
+@media screen and (max-width: 768px) {
+    #navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
